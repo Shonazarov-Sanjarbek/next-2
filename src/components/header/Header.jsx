@@ -61,6 +61,14 @@ const Header = () => {
               </Link>
             </div>
             <div className="flex items-center gap-1 navbar__collection">
+              <Link
+                className={
+                  "text-[16px] font-[500] text-[#000000] lg:text-[#000000] "
+                }
+                href={"/login"}
+              >
+                Login
+              </Link>
             </div>
           </div>
         </div>
